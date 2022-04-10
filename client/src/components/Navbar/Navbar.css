@@ -1,0 +1,48 @@
+.navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 5vh;
+    background-color: var(--third-bg-color);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar-user-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-coin-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.coin-trade {
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+    animation: coin-trade 1s ease-in-out;
+    animation-fill-mode: forwards;
+    font-weight: 700;
+}
+
+.gain-coins {
+    color: var(--success);
+}
+
+.lose-coins {
+    color: var(--danger);
+}
+
+@keyframes coin-trade {
+    to {
+        bottom: -40px;
+        opacity: 0;
+    }
+}

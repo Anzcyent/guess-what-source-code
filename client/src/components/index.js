@@ -1,0 +1,10 @@
+export { default as LoginRegister } from "./LoginRegister/LoginRegister";
+export { default as GuessCard } from "./Game Cards/Guess Card/GuessCard";
+export { default as ResultCard } from "./Game Cards/Result Card/ResultCard";
+export { default as Navbar } from "./Navbar/Navbar";
+export { default as CoinInputArea } from "./Coin Input Area/CoinInputArea";
+export { default as HowToPlay } from "./How To Play/HowToPlay";
+export { default as Toast } from "./Toast/Toast";
+export { default as Loading } from "./Loading/Loading";
+export {default as ForgotPassword} from "./Reset Password/ForgotPassword";
+export {default as ResetPassword} from "./Reset Password/ResetPassword";

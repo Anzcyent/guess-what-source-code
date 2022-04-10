@@ -1,0 +1,29 @@
+.how-to-play {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-color: #a39249a1;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.how-to-play-content {
+    width: 40vw;
+    height: 30vh;
+    background-color: var(--secondary-bg-color);
+    border-radius: 5px;
+    padding: 1rem;
+    font-size: 12px;
+}
+
+.how-to-play-list {
+    padding: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+    .how-to-play-content {
+        height: 70vh;
+    }
+}
